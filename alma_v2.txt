@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX template for the science justification to be       %%
+%%       submitted as part of an ALMA proposal.             %%
+%%                                                          %%
+%%                      ALMA Cycle 3                        %%
+%%                                                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% How to convert this document to PDF %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% If your figures are stored as PostScript files, you can use the 
+% following commands to generate a PDF file of your proposal:
+
+%% latex file.tex
+%% dvips file.dvi
+%% ps2pdf file.ps file.pdf 
+
+
+% If your figures are PDF images or bitmap pictures in PNG, JPG, or GIF format,
+% you can use the pdflatex command to generate a PDF file from this template
+% (note, however, that the pdflatex command does not handle PostScript files):
+
+% pdflatex file.tex
+
+
+% WARNINGS: 
+%           1. You must make sure that PDF output generated from this
+%              template is complete both when displayed with a viewer 
+%              (acroread, for example) and when printed on paper.
+%              LaTeX installations vary greatly and therefore it might 
+%              not be possible to get all proposals to come out 
+%              correctly with a single text page layout. 
+%              In some cases you will have to adjust the 
+%              \topmargin=-7mm command in the template to center the 
+%              text vertically in the page.  
+%           2. The scientific justification, figures, tables, references,
+%              and public outreach statement must all fit within the
+%              4-page limit.
+%           3. You are free to include colour images in your proposal 
+%              justification. Proposals are distributed to ALMA Review Panels 
+%              in electronic form. However, the scientific content of the 
+%              images should still remain clear when displayed or printed
+%              in black and white.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Default format: 12pt single column %%%%%
+%% 12pt is the minimum font size allowed !! %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,a4paper]{article}  %% DO NOT CHANGE to 11pt or less !
+
+\usepackage{graphics,graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Page dimensions %%%%%
+%%%%%%  DO NOT CHANGE  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textheight=247mm
+\textwidth=180mm
+\topmargin=-7mm
+\oddsidemargin=-10mm
+\evensidemargin=-10mm
+\parindent 10pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Start of document %%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{plain}
+\pagenumbering{arabic}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Title of proposal %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+{\LARGE{\bf
+%%
+%% ENTER TITLE OF PROPOSAL BELOW THIS LINE
+{Is the Torus of NGC 1068 Created by a Hydromagnetic Outflow Wind?}
+%%
+%%
+}}
+\end{center}
+\bigskip
+
+%% Principal Investigator (PI) initial(s) and family name %%
+\centerline{\bf PI: 
+%% ENTER NAME OF PI BELOW THIS LINE
+{Enrique Lopez-Rodriguez}}
+
+\bigskip
+
+% Type a concise abstract of your proposal here (optional).
+
+\section{Abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Body of science justification %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% ENTER TEXT, FIGURES AND TABLES BELOW
+
+\section{Scientific Justification}
+
+\textbf{Active Galactic Nuclei:} Recent success (e.g. Ramos Almeida et al. 2009, Alonso-Herrero et al. 2011, Ichikawa et al. 2015) in explaining several properties of the nuclear infrared (IR) spectral energy distributions (SEDs) of Active Galactic Nuclei (AGN) have been gathered with the assumption of a \textsc{Clumpy} (Nenkova et al. 2008) distribution of dust. This model proposes (Figure 1, b-insert) that \textit{an optically and geometrically thick and dusty distribution of clouds surround the central engine} (black hole and accretion disk), permitting, from an statistical point of view, an examination of general properties of the clumps, i.e. inclination to our line of sight (LOS), number of clumps, covering factor, optical depth, etc. These studies have tentatively indicated that the difference between AGN can be due to intrinsic properties of the torus (e.g. number of clumps, angular width of the torus, etc.) and not only by an orientation effect as the unified model of AGN (Lawrence 1991; Antonucci 1993) posits. Although this AGN dusty environment was postulated to be a `donut-shape' morphology, in this proposal we denote the clumpy and dusty region surrounding the central engine, where the obscuring material is located, as the `torus' \textit{with the precise morphology, origin and evolution of that dusty region still to be determined.}  
+
+
+\textbf{The torus as a magnetohydrodynamical outflow wind:} The torus has been suggested to be originated by a hydromagnetic outflow wind confined and accelerated by the accretion disk's magnetic field (Blanford \& Payne 1982, Emmering et al. 1992, Konigl \& Kartje 1994, Elitzur \& Shlosman 2006, Keating et al. 2012). In this scheme, the magnetohydrodynamical (MHD) outflow wind can lift the plasma from the midplane of the accretion disk to form a geometrically thick distribution of dusty clouds surrounding the active nuclei. \textit{The torus is that particular region of an outflow wind moving away from the central engine where the clouds are dusty and optically thick}. Within this scheme, the magnetic field plays an important role in the origin, kinematics, evolution and morphology of the torus. Although large efforts have been made in the development of MHD simulations of the outflow wind of AGN, the magnetic field strengths in the torus are poorly constrained. \textit{A convincing demonstration that large-scale ($\sim$pc) organized magnetic fields are present in AGN is required to strength the MHD outflow wind model}. 
+
+
+\textbf{What can we be learned from polarimetry?:}  \textit{Polarimetric observations give us a powerful tool to enhance the contrast of the polarized structures from those unpolarized continuum emission components within the core of AGN}. This enhance in contrast is shown by the total (Stokes I) and polarized flux images of NGC 1068 at 11.6 $\mu$m using CanariCam on the 10.4-m Gran Telescopio CANARIAS (GTC). Polarimetric observations allow us the detailed study of the core and surrounding structures that could not be possible only by continuum observations, allowing us to identify specific signatures of the several structures in AGN: (1) \textit{Magnetically aligned dusty environment:} The passage of radiation through magnetically aligned dust grains, leading to preferential extinction of that radiation in one plane of polarization, is known as dichroism. The long axes of the dust grains are aligned perpendicular to the direction of the magnetic field and a position angle of polarization (P.A.) of polarization parallel to the magnetic field is expected for dichroic absorption, while a P.A. of polarization perpendicular to the magnetic field is expected for dichroic emission. A change of $\Delta P.A. \sim$90$^{\circ}$ in the P.A. of polarization between dichroic absortion/emission is expected (Efstathiou et al. 1997). (2) \textit{AGN jets:} The synchrotron emission from the base of jets in AGN can be revealed through MIR polarimetry (Lopez-Rodriguez et. al 2014) and ALMA polarimetry (Mart\'i-Vidal, et al. 2015). (3) \textit{Electron/dust scattering:} 
+	
+\textbf{A magnetically dominant region is surrounding the central engine of NGC 1068:} We have shown that this polarimetric approach at NIR wavelengths can be used to estimate the magnetic field in the torus of AGN, specifically for IC 5063 (Lopez-Rodriguez et al. 2013) and NGC 1068 (Lopez-Rodriguez et al. 2015, submitted to MNRAS). We performed near-diffraction limited ($\sim$0.19$''$, 11.4 pc) NIR polarimetric observations (Figure 1, d) of NGC 1068 using MMT-Pol on the 6.5-m MMT. We found that for those clumps showing NIR dichroism in the torus, the estimated magnetic field strength of 4-139 mG at 0.4 pc from the central engine has $P.A._{\mbox{\tiny K$'$}} \sim P.A._{\mbox{\tiny torus}}$ (Figure 1, c), suggesting that \textit{a large-scale magnetic field is thus aligned with the torus axis onto the plane of the sky of NGC 1068}. Adopting this magnetic field configuration and the physical conditions of the clumps in the MHD outflow wind model, we estimate a mass outflow rate $\le$0.17 M$_{\odot}$ yr$^{-1}$ at 0.4 pc from the central engine for those clumps showing NIR dichroism. The models used were able to create the torus in a timescale of $\sim$10$^{5}$ yr with a rotational velocity of $\sim$1228 km s$^{-1}$. We conclude that \textit{at a distance of $\sim$0.4 pc from the central engine of NGC 1068, the evolution, morphology and kinematics of the torus can be explained from a MHD framework.} 
+  
+
+\textbf{- The proposal - Characterization of the MHD outflow wind model in NGC 1068 using ALMA polarimetry:} Although some constraints of the MHD outflow wind have been made at the inner radii, $\sim$0.4 pc, of the torus in NGC 1068, some questions remain: (1) \textit{How does the outflow wind move away and creates the geometrically thick and dusty structure?}; (2) \textit{What is the relationship of the inflow/outflow mass rates between the inner and outer edge of the torus?}; (3) \textit{How large if the torus under the influence of the MHD outflow wind?} We here present a novel approach to understand the origin, evolution and morphology of the torus through the ALMA polarimetry mode.
+
+Garc\'ia-Burillo et al. (2014) performed Band 7 (Figure 1, a) and 9 observations of NGC 1068 and found that a molecular outflow from scales of $\sim$50 pc to $\sim$400 pc is driven by the power of the AGN. Using the dust continuum fluxes measured by ALMA together with nuclear IR (1-20 $\mu$m) fluxes within the \textsc{Clumpy} models (Figure 1, b-insert), a torus radius of 20$^{+6}_{-11}$ pc (0.33$^{+0.10}_{-0.18}$$''$) was estimated. Those cold ($\sim$10 K) dust grains dominated by the MHD outflow wind will provide an estimation of the outer edge of the torus, where (1) the measured P.A. of polarization will change $\sim$90$^{\circ}$ from NIR observations (Figure 1, d), allowing us to estimate the geometry of the magnetic field onto the plane of the sky, and, (2) the measured degree of polarization will be a function of the extinction in the torus, allowing us to estimate the strength of the magnetic field. \textit{ALMA polarimetric observations will characterize the geometry and strength of the magnetic field at scales of $\sim$10 pc from the central engine, providing information of the outer edge of the torus.}
+
+\textbf{Immediate objetive:} We plan to combine ALMA Band 7 polarimetric observations with already acquired near-diffraction limited NIR and mid-IR (7.5-13 $\mu$m) polarimetric observations using MMT-Pol/MMT and CanariCam on the 10.4-m Gran Telescopio CANARIAS (GTC). We have found a $\Delta P.A.\sim$90$^{\circ}$ from our 2.2 $\mu$m polarimetric observations using MMT-Pol (Figure 1, a) and near-diffraction limited ($\sim$0.35$''$, 21 pc) MIR imaging- and spectro-polarimetry observations (Figure 1, e-f) using CanariCam. This result is in agreement with the $\Delta P.A.\sim$70$^{\circ}$ change in the P.A. of polarization observed from NIR to mid-IR (MIR, 7.5-13 $\mu$m) using low spatial-resolution ($>$1$''$, $>$60 pc) imaging- and spectro-polarimetric observations (Aitken et al. 1984). The $\Delta P.A.\sim$70$^{\circ}$ can be interpreted by dilution of polarization from (un-)polarized structures, showing that high-spatial resolution observations are crucial to isolate the torus from surrounded star formation regions, as well as diffuse dust emission from the surrounding regions of the AGN (Figure 1, e-f). Using \textsc{Clumpy} torus models in the nuclear IR (1-20 $\mu$m) SED of NGC 1068, a torus radius of 2-3.2 pc was estimated (Alonso-Herrero et al. 2011), where the MIR emission can arise from the back-side of the directly illuminated clumps (the closest to the central engine), as well as from the non-directly illuminated clumps up to a radius of of 3.2 pc. \textit{By combining the IR (1-13 $\mu$m) and ALMA polarimetric observations with the MHD outflow wind model, we will obtain a topographic map of the magnetic field, tracking the outflow wind from the inner ($\sim$0.4 pc from NIR observations) to the outer ($\sim$10 pc from ALMA observations) edge of the torus, leading to a better understanding of the origin, evolution and morphology of the torus.} In case several mechanisms of polarization dominate at different wavelengths, then detail characterization of the physical structures in NGC 1068 will be performed using the polarization model by Lopez-Rodriguez et al. (2013, 2014). \textit{The unique combination of polarimetric observations with MMT-Pol/MMT, CanariCam/GTC and ALMA is crucial for the understanding of the evolution of AGN and its connection with the host galaxy.}
+
+The high-angular resolution (0.037$''$, 2.2 pc) at Band 7 offered by ALMA Cycle 3 will allows us to obtain the first resolved image of the torus (20$^{+6}_{-11}$ pc, 0.33$^{+0.10}_{-0.18}$$''$) in NGC 1068. The ALMA polarimetry observations will allow us to achieve our goal of characterizing the MHD outflow wind model in NGC 1068 through the dichroic signature of the resolved torus using the mentioned polarization approach.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Potential for Publicity %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Potential for Publicity}
+
+% Here, include a brief statement on the potential of your proposal
+% to generate publicity based on the scientific results to be obtained.
+
+The requested observations will produce the first image of the torus in AGN at scales of 2.2 pc (0.037$''$) allowing us to discriminate between different torus models (homogeneous vs. clumpy) and study the AGN-Host galaxy feedback. Using the ALMA polarimetric observations together with the near-diffraction limited IR (1-13 $\mu$m) polarimetric observations of NGC 1068, the origin, evolution and kinematics of the torus will be studied improving our understanding of the AGN evolution. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%% References section: %
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{References}
+
+% List references here
+
+$\bullet$ Aitken, D.~K. et al. 1984, Nature, 310, 660 $\bullet$ Alonso-Herrero, A. et al. 2011, ApJ, 736, 82 $\bullet$ Antonucci, R. 1993, AR\&A, 31, 473 $\bullet$ Blandford, R.~D. \& Payne, D.~G. 1982, MNRAS, 199, 883 $\bullet$ Chandrasekhar, S. \& Fermi, E. 1953, ApJ, 118, 113 $\bullet$ Davis, J. L. \& Greenstein, J.~L. ApJ, 1951, 114, 206 $\bullet$ Elitzur, M. \& Schlosman, I. 2006, ApJL, 648, L101 $\bullet$ Emmering, R.~T. et al. 1992, ApJ, 385, 460 $\bullet$ Evans, I.~N. et al. 1991, ApJL, 369, L27 $\bullet$ Gallimore, J.~F. et al. 1996, ApJ, 458, 136 $\bullet$ Garc\'ia-Burillo et al. 2014, A\&A, 567, A125 $\bullet$ Jones, R.~V. \& Spitzer, Jr.~L. 1967, 147, 943 $\bullet$ Jones, T.~J., et al. 1992, ApJ, 389, 602 $\bullet$ Ichikawa, K. et al. 2015, ApJ, 803, 571 $\bullet$ Keating, S.~K. 2012, ApJ, 749, 32 $\bullet$ Konigl, A. \& Kartje, J.~F. 1994, ApJ, 434, 446 $\bullet$ Lawrence, A. et al. 1991, MNRAS, 252, 586 $\bullet$ Lopez-Rodriguez, E. et al. 2013, MNRAS, 431, 2723 $\bullet$ Lopez-Rodriguez, E. 2014, ApJ, 793, 81 $\bullet$ Mart\'i-Vidal, I. et al. 2015, Science, 348, 6232$\bullet$ Ramos Almeida, C. et al. 2009, ApJ, 702, 1127 $\bullet$ Vrba, C.  et al. 1981, ApJ, 243, 489
+
+\textbf{Figures}
+
+%-----------------------------Figure Start---------------------------
+\begin{figure}[tbh]
+\centering
+\includegraphics[scale=0.6,trim=0cm 1cm 0cm 0cm]{alma_fig}
+\caption{\textbf{a)} 349 GHz continuum emission map of NGC 1068 obtained with ALMA Cycle 0 (Garc\'ia-Burillo et al. 2014). The color map is shown in color scale (in Jy beam$^{-1}$ units as indicated by the colorbar) with contours levels 3$\sigma$, 5$\sigma$, 10$\sigma$, 15$\sigma$, 20$\sigma$, 30$\sigma$ to 120$\sigma$ in steps of 15$\sigma$, where 1$\sigma$ = 0.14 mJy beam$^{-1}$. The position of the AGN ([$\Delta\alpha$,$\Delta\delta$] = [-0.9$''$,-0.1$''$] = $\alpha_{\tiny 2000}$ = 02$^{h}$42$^{m}$40.71$^{s}$, $\delta_{\tiny 2000}$ = -00$^{\circ}$00$'$47.94$''$) is highlighted by the star marker and it's the adopted tracking center for this proposal. The filled ellipse represents the beam size: 0.6$''$ $\times$ 0.5$''$ at PA = 60$^{\circ}$. 
+\textbf{b)} Nuclear SED of the dust continuum emission in NGC 1068 derived using NIR and MIR continuum and spectroscopy data (blue squares) from Alonso-Herrero et al. (2011) and ALMA Band 7 and 9 dust continuum with the best \textsc{Clumpy} model fit to the observations (curve) and the 1$\sigma$ uncertainty range of the fit (gray shaded region). \textit{Insert}: Scheme of the \textsc{Clumpy} torus of AGN. Y: radial extent; $\tau_{v}$: optical depth of the clouds; $\sigma$: angular width of the torus;  $N_{o}$: number of clouds; $i$: viewing angle. 
+\textbf{c)} The $P.A._{\mbox{\tiny K$'$}}$ = 127$\pm$2$^{\circ}$ NIR polarization is comparable to the orientation, $P.A._{\mbox{\tiny torus}}$ $\sim$ 138$^{\circ}$, of the obscuring material as seen through MIR interferometric observations (Raban et al. 2009). 
+\textbf{d)} The 8$''$ $\times$ 4$''$ polarized flux image (grey scale) at 2.2 $\mu$m with overlaid polarization vectors using MMT-Pol (Lopez-Rodriguez et al. 2015). The polarized flux image has a pixel scale of 0.043$''$, whilst the polarisation vectors with P/$\sigma_{p} >$  3 within the binned 4$\times$4 pixels box (0.172$''$) are shown. A vector of 5\% of polarization and the FWHM of the observations are shown. The dashed line shows the orientation of the radio jet (Gallimore et al. 1996), and the yellow shadow area shows the HST [OIII] ionized cones (Evans et al. 1991). 
+\textbf{e)}. Total flux image of the central 2$''$ $\times$ 5$''$ at 11.6 $\mu$m using CanariCam (Lopez-Rodriguez et al. 2015, in preparation). Contours start at 11$\sigma$ and increase as 1.5$^{n}$, with $n$ = 7, 8, 9, ... North is up and East is left.
+\textbf{f)}. Polarized flux image of the central 3$''$ $\times$ 2$''$ at 11.6 $\mu$m with the overlaid polarization vectors. Contours are plotted in steps of 10\% from the peak pixel of the North feature where only those polarization vectors with P/$\sigma_{p} >$  3 are shown. A vector of 5\% of polarization is shown. The black cross show the location of the peak of the total flux image in \textbf{b)}.}
+\end{figure}
+%-----------------------------Figure End------------------------------
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% End of document %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
